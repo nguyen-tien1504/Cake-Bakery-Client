@@ -1,0 +1,31 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+@media only screen and (max-width: 1400px) {
+  .item {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 15px;
+  }
+  .item figure img {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .item {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 15px;
+  }
+  .item figure img {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 922px) {
+}
+@media only screen and (max-width: 576px) {
+}
+@media only screen and (max-width: 475px) {
+}
